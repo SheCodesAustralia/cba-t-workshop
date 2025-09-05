@@ -35,15 +35,15 @@ For example:
 
 ```
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
-Try adding the above `h1`, `h2` and `h3` headings to your page.
+Try adding the above `h2` and `h3` headings to your page.
 
 {{% /notice %}}
 
 This should be the resulting page:
 
-![Screenshot of webpage with h1, h2 and h3 elements.](content/html_and_css/images/htmlpage-2.png)
+![Screenshot of webpage with h1, h2 and h3 elements.](../../images/moodboard-screenshot.png)
 
 ## Paragraph text
 

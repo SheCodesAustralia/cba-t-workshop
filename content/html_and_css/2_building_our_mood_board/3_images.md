@@ -73,7 +73,7 @@ Let's add `a` tag before our image tag.
 
 Notice here that our `img` is nestled inside of our opening `a` tag and closing `</a>` tag. 
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Add at least one link to another website to your page. Play around with adding it to your images or perhaps one of your headings.
 

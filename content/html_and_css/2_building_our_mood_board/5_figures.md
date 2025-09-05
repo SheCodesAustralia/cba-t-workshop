@@ -16,7 +16,7 @@ We do this by adding the `attribute` to the opening tag and providing a `value` 
 
 For example, the following is an `h1` element with an `id` attribute of value `title`:
 
-![Annotated HTML Element with attribute.](../images/element_with_attribute.png)
+![Annotated HTML Element with attribute.](../../images/element_with_attribute.png)
 
 Typically we would use an `id` if we wanted to identify one object for styling purposes, and we would use a `class` attribute if we wanted to apply the same styling to multiple things on our page.
 

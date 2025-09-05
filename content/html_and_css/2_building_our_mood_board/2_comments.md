@@ -21,7 +21,7 @@ A comment looks like this:
 
 You'll notice we already have one in your body section. Feel free to add more comments to youself as we move through this tutorial.
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Add comments to your code to explain what each line of code does.
 

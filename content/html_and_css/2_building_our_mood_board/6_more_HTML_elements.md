@@ -22,4 +22,8 @@ There's lots more in HTML that we could cover. We've included a few more common 
 | `<span>`     | Styles or highlights small parts of text               | `<span>Highlight</span>`                   |
 | `<figure>`   | Groups images or diagrams with captions                | `<figure><img src="pic.jpg"><figcaption>Caption</figcaption></figure>` |
 
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
+
 Have a play around with your completed mood board page and see what other HTML elements you could include. We love looking at [W3 Schools](https://www.w3schools.com/tags/default.asp) for a list of inspo to Google.
+
+{{% /notice %}}

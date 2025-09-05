@@ -12,7 +12,7 @@ Every element has a name, and is (usually) made up of an opening and closing tag
 We've actually already written an element.
 "Our First Webpage" used an `h1` tag, otherwise known as a heading tag.
 
-![Annotated HTML Element showing opening and closing tags and content..](../images/element.png)
+![Annotated HTML Element showing opening and closing tags and content](content/html_and_css/images/element.png)
 
 For this tutorial let's start by adding some structure to our page. Go ahead and copy the below into your codepen window and then let's chat through what's happening.
 

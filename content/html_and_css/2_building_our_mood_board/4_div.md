@@ -28,12 +28,6 @@ Let's wrap our 5 images and quote in a `div` tag:
 </main>
 ```
 
-{{% notice test %}}
-
-something should happen...
-
-{{% /notice %}}
-
 Let's make a second `div` for our quote text, which we will use for styling purposes shortly.
 
 ## Check your Code
