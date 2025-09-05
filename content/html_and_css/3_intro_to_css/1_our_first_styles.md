@@ -1,13 +1,24 @@
 ---
-title: "Using Selectors"
-weight: 2
+title: "CSS Selectors"
+weight: 1
 chapter: false
 ---
+
+There are two parts to CSS: selectors and declarations.
+We'll just focus on selectors for now.
+The selector tells the webpage which part of the page to apply the styles (declarations) to.
+
+![Annotated CSS selector and declaration.](../images/css_selector.png)
+
+There are three different kinds of selectors:
+- Tag
+- ID
+- Class
 
 Take a look at the HTML provided to you.
 You should notice that our `div` elements look a bit different to what we've seen before. They all have **classes** and **ids**:
 
-```html
+```html {title="html"}
 <div class="first-row" id="box-1">
   <p>Box 1</p>
 </div>
@@ -31,19 +42,32 @@ We can use a **type selector** to do this.
 By referencing the `p` tag, we can change the colour of all text in a `p` tag.
 Add the following to your css:
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
 /* Your CSS here */
 
 body {
   background-color: orange;
 }
 
-+p {
-+  color: blue;
-+}
 ```
+{{% /notice %}}
 
-{{% notice test %}}
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+/* Your CSS here */
+
+body {
+  background-color: orange;
+}
+
+p {
+  color: blue;
+}
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 The text should now be blue.
 
@@ -55,7 +79,8 @@ Each box has a unique `id`, which means that we can reference each box individua
 
 Let's try changing the background colour of `box-1` only:
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
 /* Your CSS here */
 
 
@@ -67,13 +92,32 @@ p {
   color: blue;
 }
 
-+#box-1 {
-+  background-color: hotpink;
-+}
+
 
 ```
+{{% /notice %}}
 
-{{% notice test %}}
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+/* Your CSS here */
+
+
+body {
+  background-color: orange;
+}
+
+p {
+  color: blue;
+}
+
+#box-1 {
+  background-color: hotpink;
+}
+
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 The top left box should now be pink.
 
@@ -92,7 +136,8 @@ This means that we could use these classes to reference each row individually, i
 
 Let's try changing the background colour of the two boxes in the bottom row:
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
 /* Your CSS here */
 
 body {
@@ -107,12 +152,33 @@ p {
   background-color: hotpink;
 }
 
-+.second-row {
-+  background-color: yellow;
-+}
-```
 
-{{% notice test %}}
+```
+{{% /notice %}}
+
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+/* Your CSS here */
+
+body {
+  background-color: orange;
+}
+
+p {
+  color: blue;
+}
+
+#box-1 {
+  background-color: hotpink;
+}
+
+.second-row {
+  background-color: yellow;
+}
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 The bottom boxes should now be yellow.
 
@@ -128,7 +194,7 @@ This should be the final result:
 
 ![](../../images/boxes_complete.png)
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Try changing the background colour of box 2 only.
 

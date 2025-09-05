@@ -17,17 +17,31 @@ We can do this using the `padding` property.
 
 Add the following to your css:
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
 /* Your CSS here */
 
 nav {
 	text-align: right;
 	background-color: #87CEEB;
-+	padding: 10px;
+
 }
 ```
+{{% /notice %}}
 
-{{% notice test %}}
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+/* Your CSS here */
+
+nav {
+	text-align: right;
+	background-color: #87CEEB;
+	padding: 10px;
+}
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 There will now be more space in the nav around the text.
 
@@ -37,7 +51,8 @@ There will now be more space in the nav around the text.
 
 Let's also modify the `padding` of the header div to add space around the image:
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
 /* Your CSS here */
 
 nav {
@@ -46,12 +61,28 @@ nav {
 	padding: 10px;
 }
 
-+header div {
-+	padding: 20px;
-+}
+
 ```
 
-{{% notice test %}}
+{{% /notice %}}
+
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+/* Your CSS here */
+
+nav {
+	text-align: right;
+	background-color: #87CEEB;
+	padding: 10px;
+}
+
+header div {
+	padding: 20px;
+}
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 There should now be a gap between the nav and the image.
 
@@ -61,7 +92,8 @@ There should now be a gap between the nav and the image.
 
 Next let's add some space around `section-2`:
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
 /* Your CSS here */
 
 nav {
@@ -74,12 +106,32 @@ header div {
 	padding: 20px;
 }
 
-+#section-2 {
-+	padding: 20px 0px;
-+}
+
 ```
 
-{{% notice test %}}
+{{% /notice %}}
+
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+/* Your CSS here */
+
+nav {
+	text-align: right;
+	background-color: #87CEEB;
+	padding: 10px;
+}
+
+header div {
+	padding: 20px;
+}
+
+#section-2 {
+	padding: 20px 0px;
+}
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 There will now be a gap between the images and `section-3`.
 
@@ -101,20 +153,36 @@ The next section has the cards.
 
 First, let's add padding to the section itself:
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
+/* Your CSS here */
+
 #section-3 {
 	background-color: #885A89;
-+	padding: 20px;
+
 }
 ```
 
-{{% notice test %}}
+{{% /notice %}}
+
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+/* Your CSS here */
+
+#section-3 {
+	background-color: #885A89;
+	padding: 20px;
+}
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 There will now be space between the edge of the purple background and the white cards.
 
 {{% /notice %}}
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Add `20px` of padding to each of the cards.
 
@@ -122,13 +190,13 @@ Add `20px` of padding to each of the cards.
 
 ## Step 5
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 For `section-4` and each `.column`, add `20px` of `padding` to the top and bottom, and `0px` of `padding` to the left and right.
 
 {{% /notice %}}
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Add `10px` of `padding` to the footer.
 
@@ -145,7 +213,10 @@ We can use `margin` to achieve this.
 
 Try adding the following to your CSS:
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
+/* Your CSS here */
+
 .card {
 	height: 250px;
 	width: 25%;
@@ -153,11 +224,29 @@ Try adding the following to your CSS:
 	vertical-align: middle;
 	background-color: #fff;
 	padding: 20px;
-+	margin: 0 10px;
+
 }
 ```
 
-{{% notice test %}}
+{{% /notice %}}
+
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+/* Your CSS here */
+
+.card {
+	height: 250px;
+	width: 25%;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #fff;
+	padding: 20px;
+	margin: 0 10px;
+}
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 There should now be space between the cards. Try changing `10px` to a larger number to make it easier to see if necessary.
 

@@ -19,15 +19,15 @@ We can achieve this effect using the `text-align` property.
 
 Add the following your CSS:
 
-```diff
+```css {title="css"}
 /* Your CSS here */
 
-+nav {
-+	text-align: right;
-+}
+nav {
+	text-align: right;
+}
 ```
 
-{{% notice test %}}
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 The nav text should now be on the right.
 
@@ -39,7 +39,7 @@ As we go through this tutorial, you'll start to see that every CSS property has 
 
 {{% /notice %}}
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Add CSS to set the `header` and `main` elements' `text-align` property to `center`.
 
@@ -51,15 +51,28 @@ Next up, let's get those cards to be side by side.
 
 Add the following to your CSS:
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
 .card {
 	height: 250px;
 	width: 25%;
-+	display: inline-block;
+
 }
 ```
 
-{{% notice test %}}
+{{% /notice %}}
+
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+.card {
+	height: 250px;
+	width: 25%;
+	display: inline-block;
+}
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 The cards should now be side by side.
 
@@ -87,16 +100,30 @@ The cards are side by side, but they aren't quite aligned evenly.
 
 Add the following to your CSS to vertically align them next to each other:
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
 .card {
 	height: 250px;
 	width: 25%;
 	display: inline-block;
-+	vertical-align: middle;
+
 }
 ```
 
-{{% notice challenge %}}
+{{% /notice %}}
+
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+.card {
+	height: 250px;
+	width: 25%;
+	display: inline-block;
+	vertical-align: middle;
+}
+```
+{{% /notice %}}
+
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Modify the `.column` elements to be `inline-block`.
 

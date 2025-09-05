@@ -9,16 +9,30 @@ This will also help us to see where one section ends and another starts.
 
 Add the following
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
 /* Your CSS here */
 
 nav {
 	text-align: right;
-+	background-color: #87CEEB;
+
 }
 ```
 
-{{% notice test %}}
+{{% /notice %}}
+
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+/* Your CSS here */
+
+nav {
+	text-align: right;
+	background-color: #87CEEB;
+}
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 The nav element should turn blue.
 
@@ -35,7 +49,7 @@ There are several different ways of representing colours in CSS.
 For example, there are some **name colours**.
 The hex code we've used also has the name `skyblue`.
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Try changing the `background-color` to use `skyblue` instead of the hex code.
 
@@ -53,7 +67,8 @@ For the full list of named colours [check out this site,](https://htmlcolorcodes
 
 Let's get back to our CSS!
 
-```diff
+{{% notice style="warning" title="Before - Replace this code" %}}
+```css
 /* Your CSS here */
 
 nav {
@@ -61,30 +76,45 @@ nav {
 	background-color: #87CEEB;
 }
 
-+#section-3 {
-+	background-color: #885A89;
-+}
+
 ```
 
-{{% notice test %}}
+{{% /notice %}}
+
+{{% notice style="tip" title="After - Updated code" %}}
+```css
+/* Your CSS here */
+
+nav {
+	text-align: right;
+	background-color: #87CEEB;
+}
+
+#section-3 {
+	background-color: #885A89;
+}
+```
+{{% /notice %}}
+
+{{% notice style="warning" title="Test" icon="vial" %}}
 
 The background colour behind the cards should be purple.
 
 {{% /notice %}}
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Change the background colour of each card to `white`. Bonus: can you find the hex code for `white`?
 
 {{% /notice %}}
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Change the background colour of the each column in `section-5`.
 
 {{% /notice %}}
 
-{{% notice challenge %}}
+{{% notice style="info" title="Challenge!" icon="lightbulb" %}}
 
 Change the background colour of the `footer`.
 
