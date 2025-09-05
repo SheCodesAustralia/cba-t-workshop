@@ -14,12 +14,7 @@ Fork the [template on CodePen.](https://codepen.io/shecodesaus/pen/KKyrEvB)
 
 You should see four boxes (divs) like the below:
 
-![](../../images/boxes.png)
-
-Navigate to the CSS editor in CodePen and look for the line that says `Your CSS here`.
-We'll be adding all of our CSS below this line.
-
-![](../../images/css_editor.png)
+![Screenshot of a webpage featuring boxes](../../images/boxes.png)
 
 We'll start by changing the colour of page.
 
@@ -33,7 +28,7 @@ body {
 }
 ```
 
-{{% notice test %}}
+notice style="warning" title="Test" icon="vial"
 
 The page should turn orange!
 
@@ -42,7 +37,7 @@ The page should turn orange!
 Nice work!
 Your first line of CSS!
 
-{{% notice tip %}}
+{{% notice style="info" %}}
 
 Feel free to take a peek at the CSS we wrote for you.
 This CSS it what arranges the divs in a grid and gives them borders.

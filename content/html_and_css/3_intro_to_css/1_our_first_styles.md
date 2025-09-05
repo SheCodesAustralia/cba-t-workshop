@@ -184,7 +184,7 @@ The bottom boxes should now be yellow.
 
 {{% /notice %}}
 
-{{% notice tip %}}
+{{% notice style="tip" %}}
 
 Notice that we used a `.` before `second-row`, that tells our CSS that we are looking for a class.
 
