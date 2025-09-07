@@ -1,6 +1,7 @@
 ---
 title: "Fonts"
-weight: 5
+weight: 7
+
 chapter: false
 ---
 

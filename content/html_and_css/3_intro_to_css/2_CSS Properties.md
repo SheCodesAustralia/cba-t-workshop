@@ -1,6 +1,6 @@
 ---
 title: "CSS Properties"
-weight: 4
+weight: 2
 chapter: false
 ---
 

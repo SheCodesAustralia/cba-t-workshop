@@ -1,6 +1,6 @@
 ---
 title: "Working in HTML *AND* CSS"
-weight: 5
+weight: 4
 chapter: false
 ---
 
