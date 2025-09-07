@@ -14,7 +14,7 @@ Fork the [template on CodePen.](https://codepen.io/shecodesaus/pen/KKyrEvB)
 
 You should see four boxes (divs) like the below:
 
-![Screenshot of a webpage featuring boxes](../../images/boxes.png)
+![Screenshot of a webpage featuring boxes](../images/boxes.png)
 
 We'll start by changing the colour of page.
 
