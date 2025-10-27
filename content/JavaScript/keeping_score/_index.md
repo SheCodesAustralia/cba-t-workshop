@@ -14,11 +14,28 @@ Remember, right at the start we set the variable `scoreBoard`.
 
 {{% /notice %}}
 
-Now we're going to create another variable (this time called `score`) that starts at zero, and increases by one each time a cupcake is successfully smashed. This is your personal cupcake smash counter!
+Now we're going to create another variable (this time called `score`). 
 
 {{% notice style="warning" title="Before - Replace this code" %}}
 ```js
 let scoreBoard = document.querySelector('.score');
+
+```
+
+{{% /notice %}}
+
+{{% notice style="tip" title="After - Updated code" %}}
+```js
+let scoreBoard = document.querySelector('.score');
+let score = 0;
+
+```
+Now let's add our score variable to our smashing function so that it starts at zero, and increases by one each time a cupcake is successfully smashed. This is your personal cupcake smash counter!
+
+{{% /notice %}}
+
+{{% notice style="warning" title="Before - Replace this code" %}}
+```js
 
 function smash(cupcake) {
 	console.log('smashed!');
@@ -30,8 +47,6 @@ function smash(cupcake) {
 
 {{% notice style="tip" title="After - Updated code" %}}
 ```js
-let scoreBoard = document.querySelector('.score');
-let score = 0;
 
 function smash(cupcake) {
 	console.log('smashed!');
@@ -40,8 +55,6 @@ function smash(cupcake) {
 }
 ```
 {{% /notice %}}
-
-> Can you see the `smash` function? In this function, every time a cupcake is hit, we add 1 to the score.
 
 We're also going to tell our `scoreBoard` variable to show `score` whenever it is increased. To update `scoreBoard` we will use the [`textContent`](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent) property.
 
