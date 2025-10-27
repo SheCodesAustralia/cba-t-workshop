@@ -30,9 +30,9 @@ let scoreBoard = document.querySelector('.score');
 let score = 0;
 
 ```
-Now let's add our score variable to our smashing function so that it starts at zero, and increases by one each time a cupcake is successfully smashed. This is your personal cupcake smash counter!
-
 {{% /notice %}}
+
+Now let's add our score variable to our smashing function so that it starts at zero, and increases by one each time a cupcake is successfully smashed. This is your personal cupcake smash counter!
 
 {{% notice style="warning" title="Before - Replace this code" %}}
 ```js
