@@ -135,7 +135,7 @@ function endGame() {
 
 function popUp() {
     console.log('Here I am!');
-    let hole = randomHole(holes);
+    let hole = holes[0];
     let time = 500;
     hole.classList.add('up');
     setTimeout(function () {
@@ -146,11 +146,6 @@ function popUp() {
     }, time);
 }
 
-function randomHole(holes) {
-    let holeNumber = Math.floor(Math.random() * holes.length);
-    let hole = holes[holeNumber];
-    return hole;
-}
 
 function smash(cupcake) {
     console.log('smashed!');
