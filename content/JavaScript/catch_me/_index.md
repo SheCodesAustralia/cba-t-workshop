@@ -50,7 +50,7 @@ function popUp() {
 	hole.classList.add('up');
 	setTimeout(function() {
 		hole.classList.remove('up');
- }, time)
+    }, time);
 }
 ```
 {{% /notice %}}
@@ -93,7 +93,7 @@ function popUp() {
     let hole = holes[0];
     let time = 500;
     hole.classList.add('up');
-    setTimeout(function () {
+    setTimeout(function() {
         hole.classList.remove('up');
     }, time);
 }
