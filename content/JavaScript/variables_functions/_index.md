@@ -122,7 +122,7 @@ function startGame() {
 
 {{% notice tip %}}
 
-Note the different colours and `+` indicator in the code example above. This is instructing you to add the `setTimeout` line to your existing `startGame` function, but without the `+` symbol. If you're not sure what to do, the completed code up to this point is provided at the end of this page.
+Note the different colours in the code example above. This is instructing you to add the `setTimeout` line to your existing `startGame` function, effectively replacing the red 'before' code with the green 'after' code. If you're not sure what to do, the completed code up to this point is provided at the end of this page.
 
 {{% /notice %}}
 
