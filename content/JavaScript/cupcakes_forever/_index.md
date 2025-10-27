@@ -18,11 +18,6 @@ function popUp() {
 
 Now instead of adding a comment in the console log at the start of the game, we can trigger our `popUp` function to run when the game starts. Under where you first defined your `startGame` function, remove the `console.log` line and add the `popUp` function trigger.
 
-{{% notice info %}}
-
-Note the different colours and +/- indicators in the code example below. This is instructing you to remove the `console.log` line, and add the `popUp` line, but without the `+` and `-` symbols. If you're not sure what to do, the completed code up to this point is provided at the end of this page.
-
-{{% /notice %}}
 
 {{% notice style="warning" title="Before - Replace this code" %}}
 ```js
