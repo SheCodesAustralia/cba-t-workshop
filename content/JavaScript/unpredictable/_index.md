@@ -109,19 +109,19 @@ function popUp() {
     }, time);
 }
 
-function randomHole(holes) {
-    let holeNumber = Math.floor(Math.random() * holes.length);
-    let hole = holes[holeNumber];
-
-    return hole;
-}
-
 function smash(cupcake) {
     console.log('smashed!');
 
     cupcake.parentNode.classList.remove('up');
     score = score + 1;
     scoreBoard.textContent = score;
+}
+
+function randomHole(holes) {
+    let holeNumber = Math.floor(Math.random() * holes.length);
+    let hole = holes[holeNumber];
+
+    return hole;
 }
 
 function randomTime(min, max) {
