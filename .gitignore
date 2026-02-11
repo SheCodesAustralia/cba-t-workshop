@@ -3,3 +3,4 @@ resources
 .DS_Store
 public
 node_modules/
+content/html_and_css/
